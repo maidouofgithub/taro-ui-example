@@ -1,16 +1,21 @@
-export const Taro_UI = [
+export const Taro_UI_Data = [
   {
+    id: 'basic',
+
     name: '基础组件', icon: 'at-icon at-icon-settings',
     list:
       [
-        { name: 'icon 图标', url: '' },
-        { name: 'Button 按钮', url: '' },
-        { name: 'Type 字体', url: '' },
-        { name: 'Color 颜色', url: '' },
-        { name: 'Fab 浮动按钮', url: '' }
+        { name: 'icon 图标', url: '/pages/taro-ui/basic/icon' },
+        { name: 'Button 按钮', url: '/pages/taro-ui/basic/button' },
+        { name: 'Type 字体', url: '/pages/taro-ui/basic/type' },
+        { name: 'Color 颜色', url: '/pages/taro-ui/basic/color' },
+        { name: 'Fab 浮动按钮', url: '/pages/taro-ui/basic/fab' }
       ]
+
   },
   {
+    id: 'view',
+
     name: '视图组件', icon: 'at-icon at-icon-settings',
     list: [
       { name: 'Avatar 头像', url: '' },
@@ -26,8 +31,10 @@ export const Taro_UI = [
       { name: 'Load-More 提示', url: '' },
       { name: 'Steps 步骤条', url: '' },
     ]
+
   },
   {
+    id: 'action',
     name: '操作反馈', icon: 'at-icon at-icon-settings',
     list: [
       { name: 'Action-Sheet 动作面板', url: '' },
@@ -38,8 +45,11 @@ export const Taro_UI = [
       { name: 'Swipe-Action 滑动提示', url: '' },
       { name: 'Message 消息通知', url: '' },
     ]
+
   },
   {
+    id: 'from',
+
     name: '表单组件', icon: 'at-icon at-icon-settings',
     list: [
       { name: 'Input 输入框', url: '' },
@@ -56,8 +66,11 @@ export const Taro_UI = [
       { name: 'Image-Picker 图片选择器', url: '' },
       { name: 'Rang 范围选择器', url: '' },
     ]
+
   },
   {
+    id: 'view',
+
     name: '布局组件', icon: 'at-icon at-icon-settings',
     list: [
       { name: 'Flex 弹性布局', url: '' },
@@ -67,8 +80,11 @@ export const Taro_UI = [
       { name: 'Flat-Layout 浮动弹层', url: '' },
       { name: 'Accordion 手风琴', url: '' },
     ]
+
   },
   {
+    id: 'navi',
+
     name: '导航组件', icon: 'at-icon at-icon-settings',
     list: [
       { name: 'NavBar 导航栏', url: '' },
@@ -79,11 +95,15 @@ export const Taro_UI = [
       { name: 'Drawer 抽屉', url: '' },
       { name: 'Indexes 索引选取器', url: '' },
     ]
+
   },
   {
+    id: 'advance',
+
     name: '高阶组件', icon: 'at-icon at-icon-settings',
     list: [
       { name: 'Calendar 日历', url: '' },
     ]
+
   }
 ];

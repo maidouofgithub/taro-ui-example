@@ -1,4 +1,28 @@
 .component-list{
   margin-top: 10PX;
+  .component-header{
+     padding: 20PX;
+     height: 80PX;
+     display: flex;
+     align-items: center; 
+     background:#f8f8f8;
 
+    .component-header-icon{
+
+    }
+    .component-header-title{
+      margin-left:10PX;
+      color: #78a4fa;
+      font-size: 20PX;
+      font-weight: 700;
+    }
+  }
+  
+  .component-list-item{
+    padding: 10PX;
+    width: 90%;
+    color: #999999;
+    background-color: bisque;
+    margin-bottom: 10PX; 
+  }
 }

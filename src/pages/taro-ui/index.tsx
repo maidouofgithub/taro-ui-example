@@ -3,7 +3,7 @@ import { View, Text, Button } from '@tarojs/components';
 
 import { AtGrid } from "taro-ui"
 import Nav from '../../components/taro/nav';
-import { Taro_UI } from '../../constants/taroui';
+import { Taro_UI_Data } from '../../constants/taroui';
 
 import './index.scss';
 
@@ -21,7 +21,7 @@ export default class TaroUIDemo extends Component {
   }
 
   componentWillMount() {
-    this.setState({ components: Taro_UI }, () => {
+    this.setState({ components: Taro_UI_Data }, () => {
       // console.log(this.state.components);
     });
   }
@@ -35,14 +35,12 @@ export default class TaroUIDemo extends Component {
   componentDidCatchError() { }
   componentDidNotFound() { }
 
-  gridClickHandle(item, index) {
-    // console.log(index);
-    // console.log(item);
-    if (item && item.type) {
-      Taro.navigateTo({ url: '/pages/taro-ui/list?id=' + item.type });
+  onClickHandle(item) {  
+    if (item && item.id) {
+      Taro.navigateTo({ url: '/pages/taro-ui/list?id=' + item.id });
     }
   }
-
+  
   render() {
     let { components } = this.state;
     return (
@@ -54,7 +52,7 @@ export default class TaroUIDemo extends Component {
         <View className='component-list'>
           {components.map((item, index) => {
             return (
-              <View className='ar-row at-row__align--center component-item'>
+              <View className='ar-row at-row__align--center component-item' component={item} onClick={this.onClickHandle.bind(this,item)} id={item.id}>
                 <View className='at-col'>
                   <span className='  at-icon at-icon-settings'></span>
                 </View>
