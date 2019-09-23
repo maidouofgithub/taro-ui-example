@@ -14,7 +14,7 @@ export default class Nav extends Component {
   constructor(props) {
     super(props);
     let { title, leftText } = this.state;
-    this.setState({ title: props.title || title, leftText: props.leftText || leftText });
+    this.setState({ title: props.title || title, leftText: props.leftText });
   }
 
   state = {

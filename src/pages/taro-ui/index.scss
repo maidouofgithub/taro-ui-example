@@ -1,20 +1,26 @@
 .taro-index{
     width: 100%;
-    .token-moudle{
-        margin-top: 10PX;
-        font-size: 15PX;
-        .token{
-            color: #ff00ff;
-            background-color:#eeeeee;
-             padding: 10PX;
-             border-radius: 25PX;
-        }
-    }
 
     .nav{
 
     }
-    .components{
-      margin-top: 32PX;
+    .component-list{
+      margin-top: 50PX;
+      background-color: #eeeeee;
+      font-size: 16PX;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .component-item{
+        box-sizing: border-box;
+        margin-bottom: 18PX;
+        padding: 0 10PX;
+        width: 90%;
+        height: 100PX;
+        background: #fff;
+        // box-shadow: 5PX 10PX 0 rgba(0,0,0,.04);
+        border-radius: 5PX;
+      }
     }
 }

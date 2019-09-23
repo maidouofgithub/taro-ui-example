@@ -22,7 +22,7 @@ export default class TaroUIDemo extends Component {
 
   componentWillMount() {
     this.setState({ components: Taro_UI }, () => {
-      console.log(this.state.components);
+      // console.log(this.state.components);
     });
   }
   componentDidMount() {
@@ -47,13 +47,29 @@ export default class TaroUIDemo extends Component {
     let { components } = this.state;
     return (
       <View className='taro-index'>
-
         <View className='nav'>
-          <Nav title='Taro UI' leftText='组件列表'></Nav>
+          <Nav title='Taro UI' leftText=''></Nav>
         </View>
 
-        <View className='components'>
-        {components.map(a => { return <View>{a.name}</View> })}
+        <View className='component-list'>
+          {components.map((item, index) => {
+            return (
+              <View className='ar-row at-row__align--center component-item'>
+                <View className='at-col'>
+                  <span className='  at-icon at-icon-settings'></span>
+                </View>
+
+                <View className='at-col'>
+                  <Text className='  name'>  {item.name} </Text>
+                  <Text className='  desc'> 包含 {item.list.slice(0, 3).map(a =>return a.name.split(' ')[1]).join(' ')} 等</Text>
+                </View>
+                <View className='at-col'>
+                  <span className='  at-icon at-icon-chevron-right'></span>
+                </View>
+              </View>
+
+            );
+          })}
         </View>
 
       </View>

@@ -1,6 +1,6 @@
 export const Taro_UI = [
   {
-    name: '基础组件', icon: '',
+    name: '基础组件', icon: 'at-icon at-icon-settings',
     list:
       [
         { name: 'icon 图标', url: '' },
@@ -11,13 +11,12 @@ export const Taro_UI = [
       ]
   },
   {
-    name: '视图组件', icon: '',
+    name: '视图组件', icon: 'at-icon at-icon-settings',
     list: [
       { name: 'Avatar 头像', url: '' },
       { name: 'Article 文章', url: '' },
       { name: 'Badge 徽标', url: '' },
-      { name: 'Countdown 徽标', url: '' },
-      { name: 'Badge 徽标', url: '' },
+      { name: 'Countdown 倒计时', url: '' },
       { name: 'Curtain 幕帘', url: '' },
       { name: 'Divider 分割线', url: '' },
       { name: 'NoticeBar 通告栏', url: '' },
@@ -29,7 +28,7 @@ export const Taro_UI = [
     ]
   },
   {
-    name: '操作反馈', icon: '',
+    name: '操作反馈', icon: 'at-icon at-icon-settings',
     list: [
       { name: 'Action-Sheet 动作面板', url: '' },
       { name: 'Activity-Indicator 活动指示器', url: '' },
@@ -41,7 +40,7 @@ export const Taro_UI = [
     ]
   },
   {
-    name: '表单组件', icon: '',
+    name: '表单组件', icon: 'at-icon at-icon-settings',
     list: [
       { name: 'Input 输入框', url: '' },
       { name: 'Radio 单选框', url: '' },
@@ -59,7 +58,7 @@ export const Taro_UI = [
     ]
   },
   {
-    name: '布局组件', icon: '',
+    name: '布局组件', icon: 'at-icon at-icon-settings',
     list: [
       { name: 'Flex 弹性布局', url: '' },
       { name: 'Grid 栅格', url: '' },
@@ -70,7 +69,7 @@ export const Taro_UI = [
     ]
   },
   {
-    name: '导航组件', icon: '',
+    name: '导航组件', icon: 'at-icon at-icon-settings',
     list: [
       { name: 'NavBar 导航栏', url: '' },
       { name: 'TarBar 标签栏', url: '' },
@@ -82,7 +81,7 @@ export const Taro_UI = [
     ]
   },
   {
-    name: '高阶组件', icon: '',
+    name: '高阶组件', icon: 'at-icon at-icon-settings',
     list: [
       { name: 'Calendar 日历', url: '' },
     ]

@@ -1,7 +1,9 @@
 import Taro, { Component } from '@tarojs/taro';
 import { View, Text, Button } from '@tarojs/components';
 
-import {Taro_UI} from '../../constants/taroui';
+import './list.scss';
+
+import { Taro_UI } from '../../constants/taroui';
 
 export default class List extends Component {
 
@@ -15,7 +17,7 @@ export default class List extends Component {
   }
 
   componentWillMount() {
-    this.setState({ components: Taro_UI },()=>{
+    this.setState({ components: Taro_UI }, () => {
       console.info(this.state.components);
     });
   }
@@ -24,7 +26,7 @@ export default class List extends Component {
     var { components } = this.state;
     return (
       <View className='component-list'>
-        {components.map(a => { return <View>{a.name}</View> })}
+        {components.map((item, index) => { return <View>{index}.{item.name}</View> })}
       </View>
     );
   }
