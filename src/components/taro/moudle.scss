@@ -1,0 +1,18 @@
+.base-moudle{
+    width: 100%;
+
+    .title{
+
+    }
+    .moudle-name{
+      display: flex;
+      align-items: center;
+      padding: 1.28rem;
+      height: 3.84rem;
+      .moudle-title{
+          font-size: 14PX;
+          color: #000000;
+      }
+
+    }
+}
