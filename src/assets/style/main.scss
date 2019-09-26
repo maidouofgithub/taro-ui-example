@@ -1,1 +1,18 @@
 @import 'taro-ui/dist/style/index.scss';
+
+//Panel subitem
+.subitem{
+    display: inline-block;    
+     margin-left: 5PX;
+    vertical-align: middle; 
+}
+
+//flex row & cell style
+.at-row .at-col:nth-child(2n+1) {
+    background-color: #78a4f4;
+    border:1px solid #000;
+}
+.at-row .at-col:nth-child(2n) {
+    background-color: #ec7bb9;
+    border:1px solid #000;
+}

@@ -3,7 +3,7 @@ import { View, Text, Button } from '@tarojs/components';
 
 import { AtIcon } from 'taro-ui';
 
-import BaseMoule from '../../../components/taro/moudle';
+import BaseModule from '../../../components/taro/module';
 import Panel from '../../../components/taro/panel';
 
 export default class Icon extends Component {
@@ -13,7 +13,7 @@ export default class Icon extends Component {
     return (
       <View>
 
-        <BaseMoule
+        <BaseModule
           title='Icon'
           moduleName='Icon'
         >
@@ -22,7 +22,7 @@ export default class Icon extends Component {
           <AtIcon value='clock' size='30' color='#F00'></AtIcon>
           </Panel>
 
-        </BaseMoule>
+        </BaseModule>
 
       </View>
     );

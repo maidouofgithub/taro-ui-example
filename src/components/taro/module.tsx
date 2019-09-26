@@ -3,10 +3,10 @@ import { View, Text, Button } from '@tarojs/components';
 
 import { AtButton, AtNavBar } from "taro-ui";
 
-import '../../components/taro/moudle.scss';
+import '../../components/taro/module.scss';
 
 
-export default class BaseMoule extends Component {
+export default class BaseModule extends Component {
 
   constructor(props) {
     super(props);
@@ -34,7 +34,7 @@ export default class BaseMoule extends Component {
     let { title } = this.state;
     return (
 
-      <View className='base-moudle'>
+      <View className='base-module'>
 
         <AtNavBar
           // onClickRgIconSt={this.handleClick}

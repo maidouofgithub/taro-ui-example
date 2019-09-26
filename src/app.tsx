@@ -24,12 +24,20 @@ class App extends Component {
       'pages/taro-ui/index',
       'pages/taro-ui/list',
       //taro-ui
-      //base components
+      //basic  
       '/pages/taro-ui/basic/button',
       '/pages/taro-ui/basic/fab',
       '/pages/taro-ui/basic/icon',
-      //view components
+      //view  
+      '/pages/taro-ui/view/avatar',
+      '/pages/taro-ui/view/avatar',
 
+
+      //layout
+      '/pages/taro-ui/layout/flex',
+      // '/pages/taro-ui/layout/grid',
+      //advanced
+      '/pages/taro-ui/advanced/calendar'
     ],
     window: {
       backgroundTextStyle: 'light',

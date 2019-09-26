@@ -12,8 +12,11 @@ export default class Panel extends Component {
         <View className='title'>
           {this.props.title || "标题"}
         </View>
-        <View className='body'>
-          {this.props.children}
+        <View className='desc'>
+          {this.props.desc || ""}
+        </View>
+        <View className='body'> 
+            {this.props.children} 
         </View>
       </View>
     );

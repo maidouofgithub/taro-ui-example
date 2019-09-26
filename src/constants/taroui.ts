@@ -18,7 +18,7 @@ export const Taro_UI_Data = [
 
     name: '视图组件', icon: 'at-icon at-icon-settings',
     list: [
-      { name: 'Avatar 头像', url: '' },
+      { name: 'Avatar 头像', url: '/pages/taro-ui/view/avatar' },
       { name: 'Article 文章', url: '' },
       { name: 'Badge 徽标', url: '' },
       { name: 'Countdown 倒计时', url: '' },
@@ -69,11 +69,10 @@ export const Taro_UI_Data = [
 
   },
   {
-    id: 'view',
-
+    id: 'layout', 
     name: '布局组件', icon: 'at-icon at-icon-settings',
     list: [
-      { name: 'Flex 弹性布局', url: '' },
+      { name: 'Flex 弹性布局', url: '/pages/taro-ui/layout/flex' },
       { name: 'Grid 栅格', url: '' },
       { name: 'List 列表', url: '' },
       { name: 'Card 卡片', url: '' },
@@ -83,8 +82,7 @@ export const Taro_UI_Data = [
 
   },
   {
-    id: 'navi',
-
+    id: 'navigation', 
     name: '导航组件', icon: 'at-icon at-icon-settings',
     list: [
       { name: 'NavBar 导航栏', url: '' },
@@ -98,12 +96,18 @@ export const Taro_UI_Data = [
 
   },
   {
-    id: 'advance',
+    id: 'advanced',
 
     name: '高阶组件', icon: 'at-icon at-icon-settings',
     list: [
-      { name: 'Calendar 日历', url: '' },
+      { name: 'Calendar 日历', url: '/pages/taro-ui/advanced/calendar' },
     ]
 
   }
+];
+
+export const Taro_UI_Size = [
+  'small',
+  'normal',
+  'large'
 ];

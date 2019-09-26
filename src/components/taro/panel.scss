@@ -1,8 +1,9 @@
+
 .panel{
   margin-top: 10PX;
   // padding: 10PX;
   // background-color: #eeeeee;
-  font-size: 10PX;
+  font-size: 5PX;
   .title{
     position: relative;
     margin-bottom: 10PX;
@@ -11,6 +12,7 @@
     font-size: .68267rem;
     font-weight: 700;
     line-height: 1.5;
+    font-size: 16PX;
   }
   .title:before{
     content: "";
@@ -25,11 +27,24 @@
     box-shadow: 0 .14933rem .256rem 0 rgba(97,144,232,.2);
     border-radius: 1PX;
   }
+
+  .desc{
+    position: relative; 
+    padding-left: 20PX;
+    color: #c0c0c5;
+    font-size: 12PX;
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 12PX;
+  }
+
   .body{
     //  display: flex;
     //  flex-direction: column;
     //   justify-content: space-between;
     padding: 0 10PX;
+
+    font-size: 18PX;
 
     .at-button{
       margin-bottom: 5PX;

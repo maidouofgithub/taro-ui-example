@@ -2,7 +2,7 @@ import Taro, { Component } from '@tarojs/taro';
 import { View, Text, Button } from '@tarojs/components';
 import { AtButton } from 'taro-ui';
 
-import BaseMoule from '../../../components/taro/moudle';
+import BaseModule from '../../../components/taro/module';
 import Panel from '../../../components/taro/panel';
 
 export default class TaroButton extends Component {
@@ -24,7 +24,7 @@ export default class TaroButton extends Component {
   render() {
     return (
       <View>
-        <BaseMoule
+        <BaseModule
           title='Button'
           moduleName='Button'
         >
@@ -49,7 +49,7 @@ export default class TaroButton extends Component {
             <AtButton type='primary' size='small'>按钮文案</AtButton>
           </Panel>
 
-        </BaseMoule>
+        </BaseModule>
       </View>
     );
   }

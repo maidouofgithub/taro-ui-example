@@ -35,8 +35,7 @@ export default class List extends Component {
     });
   }
 
-  onClick(item){
-    debugger
+  onClick(item){ 
     if (item && item.url) {
       Taro.navigateTo({ url: item.url });
     }
