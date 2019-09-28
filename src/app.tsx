@@ -1,6 +1,6 @@
 import Taro, { Component, Config } from '@tarojs/taro'
 import Index from './pages/index'
-require('@tarojs/async-await'); 
+require('@tarojs/async-await');
 
 import 'taro-ui/dist/style/index.scss';
 import './app.scss';
@@ -26,16 +26,23 @@ class App extends Component {
       'pages/taro-ui/index',
       'pages/taro-ui/list',
       //taro-ui
-      //basic  
+      //basic
       'pages/taro-ui/basic/button',
       'pages/taro-ui/basic/fab',
       'pages/taro-ui/basic/icon',
-      //view  
-      'pages/taro-ui/view/avatar',  
+      //view
+      'pages/taro-ui/view/avatar',
+
+      //form
+      'pages/taro-ui/form/input',
 
       //layout
       'pages/taro-ui/layout/flex',
       // 'pages/taro-ui/layout/grid',
+
+      //navigation
+      'pages/taro-ui/navigation/navbar',
+
       //advanced
       'pages/taro-ui/advanced/calendar'
     ],

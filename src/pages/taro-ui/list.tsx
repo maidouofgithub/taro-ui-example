@@ -1,4 +1,4 @@
-import Taro, { Component } from '@tarojs/taro';
+import Taro, { Component, navigateTo } from '@tarojs/taro';
 import { View, Text, Button } from '@tarojs/components';
 
 import './list.scss';
@@ -35,10 +35,14 @@ export default class List extends Component {
     });
   }
 
-  onClick(item){ 
+  onClick(item){
     if (item && item.url) {
       Taro.navigateTo({ url: item.url });
     }
+  }
+
+  onClickHandle(){
+  Taro.navigateTo({url:'/pages/taro-ui/index'});
   }
 
   render() {
@@ -47,7 +51,7 @@ export default class List extends Component {
       <View className='component-list'>
         <View className='component-header'>
           <View className='component-header-icon'></View>
-          <Text className='component-header-title'>{obj.name}</Text>
+          <Text className='component-header-title' onClick={this.onClickHandle.bind(this)}>{obj.name}</Text>
         </View>
         <View>
           {obj && obj.list.map((item, index) => {

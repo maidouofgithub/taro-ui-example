@@ -52,7 +52,7 @@ export const Taro_UI_Data = [
 
     name: '表单组件', icon: 'at-icon at-icon-settings',
     list: [
-      { name: 'Input 输入框', url: '' },
+      { name: 'Input 输入框', url: '/pages/taro-ui/form/input' },
       { name: 'Radio 单选框', url: '' },
       { name: 'Checkbox 复选框', url: '' },
       { name: 'Switch 开关', url: '' },
@@ -69,7 +69,7 @@ export const Taro_UI_Data = [
 
   },
   {
-    id: 'layout', 
+    id: 'layout',
     name: '布局组件', icon: 'at-icon at-icon-settings',
     list: [
       { name: 'Flex 弹性布局', url: '/pages/taro-ui/layout/flex' },
@@ -82,16 +82,16 @@ export const Taro_UI_Data = [
 
   },
   {
-    id: 'navigation', 
+    id: 'navigation',
     name: '导航组件', icon: 'at-icon at-icon-settings',
     list: [
-      { name: 'NavBar 导航栏', url: '' },
-      { name: 'TarBar 标签栏', url: '' },
-      { name: 'Tabs 标签页', url: '' },
-      { name: 'Segmented-Control 分段器', url: '' },
-      { name: 'Pagination 分页器', url: '' },
-      { name: 'Drawer 抽屉', url: '' },
-      { name: 'Indexes 索引选取器', url: '' },
+      { name: 'NavBar 导航栏', url: '/pages/taro-ui/navigation/navbar' },
+      { name: 'TarBar 标签栏', url: '/pages/taro-ui/' },
+      { name: 'Tabs 标签页', url: '/pages/taro-ui/' },
+      { name: 'Segmented-Control 分段器', url: '/pages/taro-ui/' },
+      { name: 'Pagination 分页器', url: '/pages/taro-ui/' },
+      { name: 'Drawer 抽屉', url: '/pages/taro-ui/' },
+      { name: 'Indexes 索引选取器', url: '/pages/taro-ui/' },
     ]
 
   },
