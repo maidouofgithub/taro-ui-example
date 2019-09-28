@@ -1,7 +1,7 @@
 {
   "miniprogramRoot": "./dist",
-  "projectname": "taro-cnode",
-  "description": "taro cnode demo",
+  "projectname": "taro-ui-example",
+  "description": "taro-ui-example",
   "appid": "touristappid",
   "setting": {
     "urlCheck": true,

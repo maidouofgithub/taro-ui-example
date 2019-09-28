@@ -1,8 +1,8 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add @taro-ui/dist/style/index.scss --silent --no-progress
 
 PATH: 
-  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\nodejs\;C:\Program Files\dotnet\;D:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\Yarn\bin\;C:\Users\landwind\AppData\Local\Microsoft\WindowsApps;;D:\Program Files\Fidder\Fiddler;D:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\landwind\AppData\Roaming\npm;C:\Users\landwind\AppData\Local\Yarn\bin
+  C:\Program Files\nodejs\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin;D:\Github\taro-ui-example\node_modules\.bin;C:\Users\landwind\AppData\Local\Temp\yarn--1569656967328-0.12262832577522653;D:\Github\taro-ui-example\node_modules\.bin;C:\Users\landwind\AppData\Local\Yarn\Data\link\node_modules\.bin;C:\Program Files\libexec\lib\node_modules\npm\bin\node-gyp-bin;C:\Program Files\lib\node_modules\npm\bin\node-gyp-bin;C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\nodejs\;C:\Program Files\dotnet\;D:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files (x86)\Yarn\bin\;C:\Users\landwind\AppData\Local\Microsoft\WindowsApps;;D:\Program Files\Fidder\Fiddler;D:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\landwind\AppData\Roaming\npm;C:\Users\landwind\AppData\Local\Yarn\bin
 
 Yarn version: 
   1.17.3
@@ -14,7 +14,17 @@ Platform:
   win32 x64
 
 Trace: 
-  Error: ENOENT: no such file or directory, copyfile 'C:\Users\landwind\AppData\Local\Yarn\Cache\v4\npm-ansi-regex-3.0.0-ed0317c322064f79466c02966bddb605ab37d998\node_modules\ansi-regex\index.js' -> 'D:\Github\taro-ui-example\node_modules\@webpack-contrib\schema-utils\node_modules\ansi-regex\index.js'
+  Error: https://registry.yarnpkg.com/@taro-ui%2fdist/style/index.scss: Request "https://registry.yarnpkg.com/@taro-ui%2fdist/style/index.scss" returned a 405
+      at Request.params.callback [as _callback] (C:\Program Files (x86)\Yarn\lib\cli.js:65948:18)
+      at Request.self.callback (C:\Program Files (x86)\Yarn\lib\cli.js:140464:22)
+      at Request.emit (events.js:198:13)
+      at Request.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141436:10)
+      at Request.emit (events.js:198:13)
+      at IncomingMessage.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141358:12)
+      at Object.onceWrapper (events.js:286:20)
+      at IncomingMessage.emit (events.js:203:15)
+      at endReadableNT (_stream_readable.js:1145:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
 
 npm manifest: 
   {

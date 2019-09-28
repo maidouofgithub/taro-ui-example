@@ -1,8 +1,9 @@
 import Taro, { Component, Config } from '@tarojs/taro'
 import Index from './pages/index'
-require('@tarojs/async-await');
+require('@tarojs/async-await'); 
 
-import './app.scss'
+import 'taro-ui/dist/style/index.scss';
+import './app.scss';
 
 // 如果需要在 h5 环境中开启 React Devtools
 // 取消以下注释：
@@ -21,23 +22,22 @@ class App extends Component {
    */
   config: Config = {
     pages: [
+      // 'pages/index/index',
       'pages/taro-ui/index',
       'pages/taro-ui/list',
       //taro-ui
       //basic  
-      '/pages/taro-ui/basic/button',
-      '/pages/taro-ui/basic/fab',
-      '/pages/taro-ui/basic/icon',
+      'pages/taro-ui/basic/button',
+      'pages/taro-ui/basic/fab',
+      'pages/taro-ui/basic/icon',
       //view  
-      '/pages/taro-ui/view/avatar',
-      '/pages/taro-ui/view/avatar',
-
+      'pages/taro-ui/view/avatar',  
 
       //layout
-      '/pages/taro-ui/layout/flex',
-      // '/pages/taro-ui/layout/grid',
+      'pages/taro-ui/layout/flex',
+      // 'pages/taro-ui/layout/grid',
       //advanced
-      '/pages/taro-ui/advanced/calendar'
+      'pages/taro-ui/advanced/calendar'
     ],
     window: {
       backgroundTextStyle: 'light',
@@ -45,46 +45,46 @@ class App extends Component {
       navigationBarTitleText: 'WeChat',
       navigationBarTextStyle: 'black'
     },
-    tabBar: {
-      color: '#666',
-      selectedColor: "#b4282d",
-      backgroundColor: "#fafafa",
-      borderStyle: 'black',
-      list: [{
-        pagePath: "pages/index/index",
-        // iconPath: "./assets/image/tab-bar/home.png",
-        // selectedIconPath: "./assets/image/tab-bar/home-active.png",
-        text: "首页"
-      }, {
-        pagePath: "pages/index/index",
-        // iconPath: "./assets/image/tab-bar/types.png",
-        // selectedIconPath: "./assets/image/tab-bar/types-active.png",
-        text: "分类"
-      }, {
-        pagePath: "pages/index/index",
-        // iconPath: "./assets/image/tab-bar/cart.png",
-        // selectedIconPath: "./assets/image/tab-bar/cart-active.png",
-        text: "购物车"
-      }, {
-        pagePath: "pages/index/index",
-        // iconPath: "./assets/image/tab-bar/user.png",
-        // selectedIconPath: "./assets/image/tab-bar/user-active.png",
-        text: "个人"
-      }]
-    }
+    // tabBar: {
+    //   color: '#666',
+    //   selectedColor: "#b4282d",
+    //   backgroundColor: "#fafafa",
+    //   borderStyle: 'black',
+    //   list: [{
+    //     pagePath: "pages/index/index",
+    //     // iconPath: "./assets/image/tab-bar/home.png",
+    //     // selectedIconPath: "./assets/image/tab-bar/home-active.png",
+    //     text: "首页"
+    //   }, {
+    //     pagePath: "pages/index/index",
+    //     // iconPath: "./assets/image/tab-bar/types.png",
+    //     // selectedIconPath: "./assets/image/tab-bar/types-active.png",
+    //     text: "分类"
+    //   }, {
+    //     pagePath: "pages/index/index",
+    //     // iconPath: "./assets/image/tab-bar/cart.png",
+    //     // selectedIconPath: "./assets/image/tab-bar/cart-active.png",
+    //     text: "购物车"
+    //   }, {
+    //     pagePath: "pages/index/index",
+    //     // iconPath: "./assets/image/tab-bar/user.png",
+    //     // selectedIconPath: "./assets/image/tab-bar/user-active.png",
+    //     text: "个人"
+    //   }]
+    // }
   }
 
-  componentDidMount () {}
+  componentDidMount() { }
 
-  componentDidShow () {}
+  componentDidShow() { }
 
-  componentDidHide () {}
+  componentDidHide() { }
 
-  componentDidCatchError () {}
+  componentDidCatchError() { }
 
   // 在 App 类中的 render() 函数没有实际作用
   // 请勿修改此函数
-  render () {
+  render() {
     return (
       <Index />
     )

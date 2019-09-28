@@ -8,4 +8,4 @@ taro-ui 基本的组件使用
 + [x] Fab 浮动按钮
 ### View
 + [x] Avatar 头像
-+ [ ] Article 文章样式
++ [ ] Article 文章样式;

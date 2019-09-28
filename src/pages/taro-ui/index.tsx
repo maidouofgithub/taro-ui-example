@@ -42,7 +42,7 @@ export default class TaroUIDemo extends Component {
   }
   
   render() {
-    let { components } = this.state;
+    // let { components } = this.state; 
     return (
       <View className='taro-index'>
         <View className='nav'>
@@ -50,7 +50,7 @@ export default class TaroUIDemo extends Component {
         </View>
 
         <View className='component-list'>
-          {components.map((item, index) => {
+          {Taro_UI_Data.map((item, index) => {
             return (
               <View className='ar-row at-row__align--center component-item' component={item} onClick={this.onClickHandle.bind(this,item)} id={item.id}>
                 <View className='at-col'>
@@ -64,7 +64,7 @@ export default class TaroUIDemo extends Component {
                 <View className='at-col'>
                   <span className='  at-icon at-icon-chevron-right'></span>
                 </View>
-              </View>
+              </View> 
 
             );
           })}
