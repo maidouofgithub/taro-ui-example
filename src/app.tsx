@@ -32,7 +32,17 @@ class App extends Component {
       'pages/taro-ui/basic/icon',
       //view
       'pages/taro-ui/view/avatar',
-
+      'pages/taro-ui/view/article',
+      'pages/taro-ui/view/badge',
+      'pages/taro-ui/view/countdown',
+      'pages/taro-ui/view/curtain',
+      'pages/taro-ui/view/divider',
+      'pages/taro-ui/view/noticebar',
+      'pages/taro-ui/view/tag',
+      'pages/taro-ui/view/timeline',
+      'pages/taro-ui/view/steps',
+      'pages/taro-ui/view/loadmore',
+      'pages/taro-ui/view/swiper',
       //form
       'pages/taro-ui/form/input',
 

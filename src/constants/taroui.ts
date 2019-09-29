@@ -19,17 +19,17 @@ export const Taro_UI_Data = [
     name: '视图组件', icon: 'at-icon at-icon-settings',
     list: [
       { name: 'Avatar 头像', url: '/pages/taro-ui/view/avatar' },
-      { name: 'Article 文章', url: '' },
-      { name: 'Badge 徽标', url: '' },
-      { name: 'Countdown 倒计时', url: '' },
-      { name: 'Curtain 幕帘', url: '' },
-      { name: 'Divider 分割线', url: '' },
-      { name: 'NoticeBar 通告栏', url: '' },
-      { name: 'Tag 标签', url: '' },
-      { name: 'Timeline 时间轴', url: '' },
-      { name: 'Swiper 滑块视图容器', url: '' },
-      { name: 'Load-More 提示', url: '' },
-      { name: 'Steps 步骤条', url: '' },
+      { name: 'Article 文章', url: '/pages/taro-ui/view/article' },
+      { name: 'Badge 徽标', url: '/pages/taro-ui/view/badge' },
+      { name: 'Countdown 倒计时', url: '/pages/taro-ui/view/countdown' },
+      { name: 'Curtain 幕帘', url: '/pages/taro-ui/view/curtain' },
+      { name: 'Divider 分割线', url: '/pages/taro-ui/view/divider' },
+      { name: 'NoticeBar 通告栏', url: '/pages/taro-ui/view/noticebar' },
+      { name: 'Tag 标签', url: '/pages/taro-ui/view/tag' },
+      { name: 'Timeline 时间轴', url: '/pages/taro-ui/view/timeline' },
+      { name: 'Swiper 滑块视图容器', url: '/pages/taro-ui/view/swiper' },
+      { name: 'Load-More 提示', url: '/pages/taro-ui/view/loadmore' },
+      { name: 'Steps 步骤条', url: '/pages/taro-ui/view/steps' }
     ]
 
   },

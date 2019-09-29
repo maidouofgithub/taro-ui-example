@@ -15,13 +15,14 @@ export default class BaseModule extends Component {
 
   state = {
     title: '',
+    desc:'',
     showAtDrawer: false,
     AtDrawerItems: []
   }
 
   componentWillMount() {
     let params = this.props;
-    this.setState({ title: params.title });
+    this.setState({ title: params.title,desc:params.desc });
     let items = Taro_UI_Data.map(type => {
       return type.name;
     });
@@ -57,7 +58,7 @@ export default class BaseModule extends Component {
   }
 
   render() {
-    let { title, showAtDrawer, AtDrawerItems } = this.state;
+    let { title,desc, showAtDrawer, AtDrawerItems } = this.state;
     return (
 
       <View className='base-module'>
@@ -66,7 +67,6 @@ export default class BaseModule extends Component {
             onClickLeftIcon={this.onClickLeftIcon.bind(this)}
             onClickRgIconSt={this.onClickRgIconSt.bind(this)}
             // onClickRgIconNd={this.handleClick}
-
             color='#000'
             leftText='<Back'
             title={title}
