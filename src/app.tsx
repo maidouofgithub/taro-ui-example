@@ -43,6 +43,9 @@ class App extends Component {
       'pages/taro-ui/view/steps',
       'pages/taro-ui/view/loadmore',
       'pages/taro-ui/view/swiper',
+
+      //action 
+     'pages/taro-ui/action/actionsheet',
       //form
       'pages/taro-ui/form/input',
 

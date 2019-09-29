@@ -36,6 +36,7 @@ export default class TaroUIDemo extends Component {
   componentDidNotFound() { }
 
   onClickHandle(item) {  
+     
     if (item && item.id) {
       Taro.navigateTo({ url: '/pages/taro-ui/list?id=' + item.id });
     }

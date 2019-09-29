@@ -14,14 +14,7 @@ export default class Calendar extends Component {
 
     state = {}
 
-    componentWillMount() { }
-    componentDidMount() { }
-    componentWillReceiveProps(nextProps, nextContext) { }
-    componentWillUnmount() { }
-    componentDidShow() { }
-    componentDidHide() { }
-    componentDidCatchError() { }
-    componentDidNotFound() { }
+   
     render() {
         var now = new Date();
         let minDate = new Date(now.getFullYear(), now.getMonth(), now.getDay() + 1);
