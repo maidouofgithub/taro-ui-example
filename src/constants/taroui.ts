@@ -38,9 +38,9 @@ export const Taro_UI_Data = [
     name: '操作反馈', icon: 'at-icon at-icon-settings',
     list: [
       { name: 'Action-Sheet 动作面板', url: '/pages/taro-ui/action/actionsheet' },
-      { name: 'Activity-Indicator 活动指示器', url: '/pages/taro-ui/action/activity' },
-      { name: 'Model 模态框', url: '/pages/taro-ui/action/model' },
-      { name: 'Process 进度条', url: '/pages/taro-ui/action/process' },
+      { name: 'Activity-Indicator 活动指示器', url: '/pages/taro-ui/action/activityindicator' },
+      { name: 'Model 模态框', url: '/pages/taro-ui/action/modal' },
+      { name: 'Progress 进度条', url: '/pages/taro-ui/action/progress' },
       { name: 'Toast 轻提示', url: '/pages/taro-ui/action/toast' },
       { name: 'Swipe-Action 滑动提示', url: '/pages/taro-ui/action/swipeaction' },
       { name: 'Message 消息通知', url: '/pages/taro-ui/action/message' },

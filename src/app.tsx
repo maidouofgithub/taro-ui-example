@@ -44,8 +44,14 @@ class App extends Component {
       'pages/taro-ui/view/loadmore',
       'pages/taro-ui/view/swiper',
 
-      //action 
-     'pages/taro-ui/action/actionsheet',
+      //action
+      'pages/taro-ui/action/actionsheet',
+      'pages/taro-ui/action/activityindicator',
+      'pages/taro-ui/action/modal',
+      'pages/taro-ui/action/progress',
+      'pages/taro-ui/action/toast',
+      'pages/taro-ui/action/swipeaction',
+      'pages/taro-ui/action/message',
       //form
       'pages/taro-ui/form/input',
 
