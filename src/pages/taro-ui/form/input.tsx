@@ -23,15 +23,6 @@ export default class Input extends Component {
     value7:'',
   }
 
-  componentWillMount() { }
-  componentDidMount() { }
-  componentWillReceiveProps(nextProps, nextContext) { }
-  componentWillUnmount() { }
-  componentDidShow() { }
-  componentDidHide() { }
-  componentDidCatchError() { }
-  componentDidNotFound() { }
-
   handleChange(value) {
     this.setState({
       value

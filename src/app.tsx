@@ -1,5 +1,5 @@
 import Taro, { Component, Config } from '@tarojs/taro'
-import Index from './pages/index'
+import Index from './pages/index';
 require('@tarojs/async-await');
 
 import 'taro-ui/dist/style/index.scss';
@@ -53,8 +53,12 @@ class App extends Component {
       'pages/taro-ui/action/swipeaction',
       'pages/taro-ui/action/message',
       //form
+      'pages/taro-ui/form/form',
       'pages/taro-ui/form/input',
-
+      'pages/taro-ui/form/inputnumber',
+      'pages/taro-ui/form/radio',
+      'pages/taro-ui/form/checkbox',
+      'pages/taro-ui/form/rate',
       //layout
       'pages/taro-ui/layout/flex',
       // 'pages/taro-ui/layout/grid',

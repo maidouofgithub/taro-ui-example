@@ -52,6 +52,7 @@ export const Taro_UI_Data = [
 
     name: '表单组件', icon: 'at-icon at-icon-settings',
     list: [
+      { name: 'Form 表单', url: '/pages/taro-ui/form/form' },
       { name: 'Input 输入框', url: '/pages/taro-ui/form/input' },
       { name: 'Radio 单选框', url: '/pages/taro-ui/form/radio' },
       { name: 'Checkbox 复选框', url: '/pages/taro-ui/form/checkbox' },
