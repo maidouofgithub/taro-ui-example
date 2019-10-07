@@ -59,7 +59,7 @@ export const Taro_UI_Data = [
       { name: 'Switch 开关', url: '/pages/taro-ui/form/switch' },
       { name: 'Rate 评分', url: '/pages/taro-ui/form/rate' },
       { name: 'Input-Number 数字输入框', url: '/pages/taro-ui/form/inputnumber' },
-      { name: 'Textare 多行文本框', url: '/pages/taro-ui/form/textare' },
+      { name: 'Textarea 多行文本框', url: '/pages/taro-ui/form/textarea' },
       { name: 'Picker 选择器', url: '/pages/taro-ui/form/picker' },
       { name: 'Picker-View 滚动选择器', url: '/pages/taro-ui/form/pickerview' },
       { name: 'Slider 滑动条', url: '/pages/taro-ui/form/slider' },

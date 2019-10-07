@@ -6,14 +6,14 @@ import GRADUAL from 'better-gradual';
 export default class CanvasDemo extends Component {
 
    config = {
-       navigationBarTitleText: ''
+       navigationBarTitleText: 'CanvasDemo'
   }
 
   state={}
 
   componentWillMount () {}
   componentDidMount() {
-    const canvas = Taro.createCanvasContext('canvas', this);
+    const canvas = Taro.createCanvasContext('canvas', this.$scope);
     new GRADUAL({
       canvas: canvas,//canvas实例
       width: 800,//canvas宽度

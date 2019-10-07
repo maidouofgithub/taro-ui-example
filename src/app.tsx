@@ -22,6 +22,10 @@ class App extends Component {
    */
   config: Config = {
     pages: [
+
+       //others
+      //  'pages/others/canvas',
+
       // 'pages/index/index',
       'pages/taro-ui/index',
       'pages/taro-ui/list',
@@ -59,6 +63,13 @@ class App extends Component {
       'pages/taro-ui/form/radio',
       'pages/taro-ui/form/checkbox',
       'pages/taro-ui/form/rate',
+      'pages/taro-ui/form/textarea',
+      'pages/taro-ui/form/switch',
+      'pages/taro-ui/form/picker',
+      'pages/taro-ui/form/searchbar',
+      'pages/taro-ui/form/slider',
+      'pages/taro-ui/form/imagepicker',
+      'pages/taro-ui/form/rang',
       //layout
       'pages/taro-ui/layout/flex',
       // 'pages/taro-ui/layout/grid',
@@ -67,7 +78,9 @@ class App extends Component {
       'pages/taro-ui/navigation/navbar',
 
       //advanced
-      'pages/taro-ui/advanced/calendar'
+      'pages/taro-ui/advanced/calendar',
+
+
     ],
     window: {
       backgroundTextStyle: 'light',
