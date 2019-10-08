@@ -15,14 +15,38 @@ export default class BaseModule extends Component {
 
   state = {
     title: '',
-    desc:'',
+    desc: '',
     showAtDrawer: false,
     AtDrawerItems: []
   }
 
   componentWillMount() {
+    //components info
+
+    let router = this.$router;
+    if(router && router.params)
+    {
+      // debugger
+      let params = router.params;
+      let path = router.path;
+      let typeInfo = Taro_UI_Data.filter((a) => {
+        return a.id == params.type;
+      })[0];
+      let item = typeInfo.list.filter((a) => {
+        return a.url===path;
+      })[0];
+      this.setState({ title: item.name });
+       //html title
+    Taro.setNavigationBarTitle({title:item.name});
+    }
+
+
+
     let params = this.props;
-    this.setState({ title: params.title,desc:params.desc });
+    if (params && params.title && params.desc) {
+      this.setState({ title: params.title, desc: params.desc });
+    }
+    //AtDrawerItems
     let items = Taro_UI_Data.map(type => {
       return type.name;
     });
@@ -58,7 +82,7 @@ export default class BaseModule extends Component {
   }
 
   render() {
-    let { title,desc, showAtDrawer, AtDrawerItems } = this.state;
+    let { title, desc, showAtDrawer, AtDrawerItems } = this.state;
     return (
 
       <View className='base-module'>

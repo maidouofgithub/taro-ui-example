@@ -35,9 +35,10 @@ export default class List extends Component {
     });
   }
 
-  onClick(item){
+  onClick(item,type){
     if (item && item.url) {
-      Taro.navigateTo({ url: item.url });
+      var id = item.url.substring(item.url.lastIndexOf('/') + 1);
+      Taro.navigateTo({ url: `${item.url}?type=${type}`});
     }
   }
 
@@ -56,7 +57,7 @@ export default class List extends Component {
         <View>
           {obj && obj.list.map((item, index) => {
             return (
-              <View className='component-list-item' onClick={this.onClick.bind(this,item)}><Text className='component-list-item-name'>{index}.{item.name}</Text><View className='at-icon at-icon-chevron-right'></View></View>
+              <View className='component-list-item' onClick={this.onClick.bind(this,item,obj.id)}><Text className='component-list-item-name'>{index}.{item.name}</Text><View className='at-icon at-icon-chevron-right'></View></View>
             )
           })}
         </View>

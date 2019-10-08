@@ -1,3 +1,4 @@
+const path = require('path');
 const config = {
   projectName: 'taro-cnode',
   date: '2019-9-16',
@@ -9,6 +10,11 @@ const config = {
   },
   sourceRoot: 'src',
   outputRoot: `dist/${process.env.TARO_ENV}`,
+  alias:{
+    '@components': path.resolve(__dirname, '..', 'src/components'),
+    '@utils': path.resolve(__dirname, '..', 'src/utils'),
+    '@constants': path.resolve(__dirname, '..', 'src/constants'),
+  },
   plugins: {
     babel: {
       sourceMap: true,

@@ -87,12 +87,12 @@ export const Taro_UI_Data = [
     name: '导航组件', icon: 'at-icon at-icon-settings',
     list: [
       { name: 'NavBar 导航栏', url: '/pages/taro-ui/navigation/navbar' },
-      { name: 'TarBar 标签栏', url: '/pages/taro-ui/tarbar' },
-      { name: 'Tabs 标签页', url: '/pages/taro-ui/tabs' },
-      { name: 'Segmented-Control 分段器', url: '/pages/taro-ui/segmented' },
-      { name: 'Pagination 分页器', url: '/pages/taro-ui/pagination' },
-      { name: 'Drawer 抽屉', url: '/pages/taro-ui/drawer' },
-      { name: 'Indexes 索引选取器', url: '/pages/taro-ui/indexes' },
+      { name: 'TabBar 标签栏', url: '/pages/taro-ui/navigation/tabbar' },
+      { name: 'Tabs 标签页', url: '/pages/taro-ui/navigation/tabs' },
+      { name: 'Segmented-Control 分段器', url: '/pages/taro-ui/navigation/segmentedcontrol' },
+      { name: 'Pagination 分页器', url: '/pages/taro-ui/navigation/pagination' },
+      { name: 'Drawer 抽屉', url: '/pages/taro-ui/navigation/drawer' },
+      { name: 'Indexes 索引选取器', url: '/pages/taro-ui/navigation/indexes' },
     ]
 
   },

@@ -79,7 +79,12 @@ class App extends Component {
       'pages/taro-ui/layout/accordion',
       //navigation
       'pages/taro-ui/navigation/navbar',
-
+      'pages/taro-ui/navigation/tabbar',
+      'pages/taro-ui/navigation/tabs',
+      'pages/taro-ui/navigation/segmentedcontrol',
+      'pages/taro-ui/navigation/pagination',
+      'pages/taro-ui/navigation/drawer',
+      'pages/taro-ui/navigation/indexes',
       //advanced
       'pages/taro-ui/advanced/calendar',
 
