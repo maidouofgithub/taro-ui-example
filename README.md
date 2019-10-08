@@ -8,53 +8,53 @@ taro-ui 基本的组件使用
 + [x] Fab 浮动按钮
 ### View
 + [x] Avatar 头像
-+ [ ] Article 文章样式;
-+ [ ] Badage 徽标
-+ [ ] CountDown 倒计时
-+ [ ] Curtain 幕帘
-+ [ ] LoadMore 页面提示
-+ [ ] Noticebar 通告栏
-+ [ ] Tag 标签
-+ [ ] Timeline 时间轴
-+ [ ] Swiper 滑动试图容器
-+ [ ] Divider 分隔符
-+ [ ] Steps 步骤条
++ [x] Article 文章样式;
++ [x] Badage 徽标
++ [x] CountDown 倒计时
++ [x] Curtain 幕帘
++ [x] LoadMore 页面提示
++ [x] Noticebar 通告栏
++ [x] Tag 标签
++ [x] Timeline 时间轴
++ [x] Swiper 滑动试图容器
++ [x] Divider 分隔符
++ [x] Steps 步骤条
 
 ### Action
 + [x] ActionSheet 动作面板
-+ [ ] ActivityIndicator 活动指示器
-+ [ ] Modal 模态窗
-+ [ ] Process 进度条
-+ [ ] Toast 轻提示
-+ [ ] SwipeAction 滑动动作
-+ [ ] Message 消息通知
++ [x] ActivityIndicator 活动指示器
++ [x] Modal 模态窗
++ [x] Process 进度条
++ [x] Toast 轻提示
++ [x] SwipeAction 滑动动作
++ [x] Message 消息通知
 ### Form
-+ [ ] Form 表单
-+ [ ] Input 输入框
-+ [ ] InputNumber 数字输入框
-+ [ ] Radio 单选按钮
-+ [ ] CheckBox 多选框
-+ [ ] Rate 评分
-+ [ ] Switch 开关
-+ [ ] Textarea 多行文本框
-+ [ ] Picker 选择器
-+ [ ] SearchBar 搜索栏
-+ [ ] ImagePicker 图片选择器
-+ [ ] Range 范围选择器
++ [x] Form 表单
++ [x] Input 输入框
++ [x] InputNumber 数字输入框
++ [x] Radio 单选按钮
++ [x] CheckBox 多选框
++ [x] Rate 评分
++ [x] Switch 开关
++ [x] Textarea 多行文本框
++ [x] Picker 选择器
++ [x] SearchBar 搜索栏
++ [x] ImagePicker 图片选择器
++ [x] Range 范围选择器
 ### Layout
-+ [ ] Flex 弹性布局
-+ [ ] Gird 栅格布局
-+ [ ] List 列表
-+ [ ] Card 卡片
-+ [ ] FloatLayout 浮动弹层
-+ [ ] Accordion 手风琴
++ [x] Flex 弹性布局
++ [x] Gird 栅格布局
++ [x] List 列表
++ [x] Card 卡片
++ [x] FloatLayout 浮动弹层
++ [x] Accordion 手风琴
 ### Navigation
-+ [ ] NavBar 导航栏
-+ [ ] TabBar 标签栏
-+ [ ] Tabs 标签页
-+ [ ] SegmentedControl 分段器
-+ [ ] Pagination 分页器
-+ [ ] Drawer 抽屉
-+ [ ] Indexes 索引选择器
++ [x] NavBar 导航栏
++ [x] TabBar 标签栏
++ [x] Tabs 标签页
++ [x] SegmentedControl 分段器
++ [x] Pagination 分页器
++ [x] Drawer 抽屉
++ [x] Indexes 索引选择器
 ### Advanced
-+ [ ] Calendar 日历
++ [x] Calendar 日历
