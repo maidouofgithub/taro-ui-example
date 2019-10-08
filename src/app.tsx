@@ -23,7 +23,7 @@ class App extends Component {
   config: Config = {
     pages: [
 
-       //others
+      //others
       //  'pages/others/canvas',
 
       // 'pages/index/index',
@@ -72,8 +72,11 @@ class App extends Component {
       'pages/taro-ui/form/rang',
       //layout
       'pages/taro-ui/layout/flex',
-      // 'pages/taro-ui/layout/grid',
-
+      'pages/taro-ui/layout/grid',
+      'pages/taro-ui/layout/list',
+      'pages/taro-ui/layout/card',
+      'pages/taro-ui/layout/floatlayout',
+      'pages/taro-ui/layout/accordion',
       //navigation
       'pages/taro-ui/navigation/navbar',
 

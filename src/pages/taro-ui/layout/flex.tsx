@@ -13,14 +13,7 @@ export default class Flex extends Component {
 
     state = {}
 
-    componentWillMount() { }
-    componentDidMount() { }
-    componentWillReceiveProps(nextProps, nextContext) { }
-    componentWillUnmount() { }
-    componentDidShow() { }
-    componentDidHide() { }
-    componentDidCatchError() { }
-    componentDidNotFound() { }
+
     render() {
         return (
             <View>
@@ -156,4 +149,4 @@ export default class Flex extends Component {
             </View>
         );
     }
-} 
+}
