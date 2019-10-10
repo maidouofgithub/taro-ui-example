@@ -20,7 +20,7 @@ export default class BaseModule extends Component {
     AtDrawerItems: []
   }
 
-  componentWillMount() {
+  componentDidShow() {
     //components info
 
     let router = this.$router;
@@ -55,7 +55,6 @@ export default class BaseModule extends Component {
   componentDidMount() { }
   componentWillReceiveProps(nextProps, nextContext) { }
   componentWillUnmount() { }
-  componentDidShow() { }
   componentDidHide() { }
   componentDidCatchError() { }
   componentDidNotFound() { }
